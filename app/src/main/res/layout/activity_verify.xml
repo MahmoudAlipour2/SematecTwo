@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Verify"
+    android:orientation="vertical">
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#D7C2C2"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        />
+    <!--First Name-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name:"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:id="@+id/getFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6E2E2"
+            android:width="250dp"
+            android:layout_marginLeft="7dp"
+            />
+
+    </LinearLayout>
+
+
+    <!--Last Name-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name:"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:id="@+id/getLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6E2E2"
+            android:width="250dp"
+            android:layout_marginLeft="7dp"
+            />
+
+    </LinearLayout>
+
+
+    <!--Age-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:             "
+            android:textSize="17dp"
+            />
+        <TextView
+            android:id="@+id/getAge"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6E2E2"
+            android:width="70dp"
+            android:layout_marginLeft="7dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <!--Country-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country:      "
+            android:textSize="17dp"
+            />
+        <TextView
+            android:id="@+id/getCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6E2E2"
+            android:width="250dp"
+            android:layout_marginLeft="7dp"
+            />
+
+    </LinearLayout>
+
+    <!--Mail-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mail:             "
+            android:textSize="17dp"
+            />
+        <TextView
+            android:id="@+id/getMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6E2E2"
+            android:width="250dp"
+            android:layout_marginLeft="7dp"
+            />
+
+    </LinearLayout>
+
+    <!--Phone Number-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone     :    "
+            android:textSize="17dp"
+            />
+        <TextView
+            android:id="@+id/getPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6E2E2"
+            android:width="250dp"
+            android:layout_marginLeft="7dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="#DC0F5A"
+        android:text="Verify" />
+
+
+
+
+
+</LinearLayout>
